@@ -18,7 +18,7 @@ lib/libtinyxml.so
 lib/parameter-framework-plugins/Audio/libimc-subsystem.so
 lib/parameter-framework-plugins/Audio/liblpe-subsystem.so
 lib/parameter-framework-plugins/Audio/libtinyalsa-subsystem.so
-lib/parameter-framework-plugins/FS/liblfs-subsystem.so
+lib/parameter-framework-plugins/Fs/liblfs-subsystem.so
 lib/parameter-framework-plugins/Route/libroute-subsystem.so
 lib/parameter-framework-plugins/System/libproperty-subsystem.so
 lib/soundfx/liblpepreprocessing.so
@@ -95,7 +95,6 @@ lib/libimf.so
 lib/libintlc.so
 lib/libirng.so
 lib/libmix_imagedecoder.so
-lib/libmix_imageencoder.so
 lib/libmixvbp.so
 lib/libsvml.so
 lib/libtbd.so
@@ -114,7 +113,6 @@ bin/bcu_cpufreqrel
 # DRM
 lib/hw/keystore.baytrail.so
 lib/libkeymaster.so
-lib/liboemcrypto.so
 vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/libwvdrm_L1.so
 vendor/lib/libwvm.so
@@ -223,6 +221,7 @@ lib/arm/libnfc_ndef.so
 lib/arm/libOpenMAXAL.so
 lib/arm/libOpenSLES.so
 lib/arm/libopus.so
+lib/arm/libpcre.so
 lib/arm/libpdfium.so
 lib/arm/libpixelflinger.so
 lib/arm/libpng.so
@@ -262,7 +261,6 @@ lib/arm/libwebrtc_audio_coding.so
 lib/arm/libwilhelm.so
 lib/arm/libz.so
 lib/arm/linker
-lib/arm/nb/libandroidfw.so
 lib/arm/nb/libandroid_runtime.so
 lib/arm/nb/libandroid.so
 lib/arm/nb/libart.so
@@ -289,6 +287,7 @@ lib/arm/nb/libm.so
 lib/arm/nb/libnativehelper.so
 lib/arm/nb/libOpenMAXAL.so
 lib/arm/nb/libOpenSLES.so
+lib/arm/nb/libpcre.so
 lib/arm/nb/libpixelflinger.so
 lib/arm/nb/libskia.so
 lib/arm/nb/libsqlite.so
@@ -329,18 +328,17 @@ lib/libOMXVideoEncoderH263.so
 lib/libOMXVideoEncoderMPEG4.so
 lib/libpavp.so
 lib/libstagefrighthw.so
+lib/libstagefright_soft_aacdec_mdp.so
+lib/libstagefright_soft_amrdec_mdp.so
+lib/libstagefright_soft_amrenc_mdp.so
+lib/libstagefright_soft_mp3dec_mdp.so
+lib/libstagefright_soft_vorbisdec_mdp.so
 lib/libstlport-mfx.so
 lib/libva-android.so
 lib/libva.so
 lib/libva_videodecoder.so
 lib/libwrs_omxil_common.so
 lib/libwrs_omxil_core_pvwrapped.so
-lib/libwrs_omxil_core.so
-lib/libstagefright_soft_amrenc_mdp.so
-lib/libstagefright_soft_amrdec_mdp.so
-lib/libstagefright_soft_aacdec_mdp.so
-lib/libstagefright_soft_vorbisdec_mdp.so
-lib/libstagefright_soft_mp3dec_mdp.so
 
 # Sensors
 etc/sensor_hal_config_default.xml
