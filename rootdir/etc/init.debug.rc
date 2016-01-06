@@ -25,16 +25,3 @@ on charger
 
 on ramconsole
     powerctl reboot
-
-# crash and log services
-#service crashlogd /system/bin/crashmonitor
-#    class late_start
-#    user system
-#    group system log radio
-
-# LogConfig service
-service logconfig /system/bin/logconfig
-    class main
-    socket logconfig stream 0660 root system
-    disabled
-    oneshot

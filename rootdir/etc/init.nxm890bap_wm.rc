@@ -288,28 +288,13 @@ service hdcpd /system/bin/hdcpd
     user root
     group graphics drmrpc
 
-service baytrail-setup /system/bin/sh /system/etc/init.baytrail.sh
-    class core
-    oneshot
-
 service coreu /system/bin/coreu
     class main
     user root
     group graphics drmrpc
 
-service surfaceflinger /system/bin/surfaceflinger
-    class main
-    user system
-    group graphics drmrpc
-    onrestart restart zygote
-
-service rfid_monzaxd /system/bin/rfid_monzaxd
-    class main
-    user system
-    group system
-
 # for eth0
-service net_eth0-start /system/bin/sh /system/etc/init.net.eth0.sh
+service net_eth0-start /system/bin/sh /init.net.eth0.sh
     class core
     oneshot
 

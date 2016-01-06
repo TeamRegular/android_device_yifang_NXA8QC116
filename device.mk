@@ -15,7 +15,7 @@
 #
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel
+    $(LOCAL_PATH):kernel
 
 $(call inherit-product-if-exists, vendor/yifang/NXA8QC116/NXA8QC116-vendor.mk)
 
